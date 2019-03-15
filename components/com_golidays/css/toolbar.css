@@ -1,0 +1,117 @@
+/** 
+* @package		Golidays
+* @subpackage	Golidays
+* @copyright	
+* @author		 -  - 
+* @license		
+*
+*             .oooO  Oooo.
+*             (   )  (   )
+* -------------\ (----) /----------------------------------------------------------- +
+*               \_)  (_/
+*/
+
+/**
+* Component icons 48px (Cpanel)
+**/
+.ico-48-golidays, .icon-48-golidays {
+	background-image:url('../images/icon-48-golidays.png');
+}
+.ico-48-golidays_categories, .icon-48-golidays_categories {
+	background-image:url('../images/icon-48-golidays_categories.png');
+}
+.ico-48-golidays_subcategories, .icon-48-golidays_subcategories {
+	background-image:url('../images/icon-48-golidays_subcategories.png');
+}
+.ico-48-golidays_departurecities, .icon-48-golidays_departurecities {
+	background-image:url('../images/icon-48-golidays_departurecities.png');
+}
+.ico-48-golidays_pricelists, .icon-48-golidays_pricelists {
+	background-image:url('../images/icon-48-golidays_pricelists.png');
+}
+.ico-48-golidays_tickettypes, .icon-48-golidays_tickettypes {
+	background-image:url('../images/icon-48-golidays_tickettypes.png');
+}
+.ico-48-golidays_reservations, .icon-48-golidays_reservations {
+	background-image:url('../images/icon-48-golidays_reservations.png');
+}
+.ico-48-golidays_cpanel, .icon-48-golidays_cpanel {
+	background-image:url('../images/icon-48-golidays_cpanel.png');
+}
+
+/**
+* Component icons 16px (Sub Menu)
+**/
+.ico-16-golidays, .icon-16-golidays {
+	background-image:url('../images/icon-16-golidays.png');
+}
+.ico-16-golidays_categories, .icon-16-golidays_categories {
+	background-image:url('../images/icon-16-golidays_categories.png');
+}
+.ico-16-golidays_subcategories, .icon-16-golidays_subcategories {
+	background-image:url('../images/icon-16-golidays_subcategories.png');
+}
+.ico-16-golidays_departurecities, .icon-16-golidays_departurecities {
+	background-image:url('../images/icon-16-golidays_departurecities.png');
+}
+.ico-16-golidays_pricelists, .icon-16-golidays_pricelists {
+	background-image:url('../images/icon-16-golidays_pricelists.png');
+}
+.ico-16-golidays_tickettypes, .icon-16-golidays_tickettypes {
+	background-image:url('../images/icon-16-golidays_tickettypes.png');
+}
+.ico-16-golidays_reservations, .icon-16-golidays_reservations {
+	background-image:url('../images/icon-16-golidays_reservations.png');
+}
+.ico-16-golidays_cpanel, .icon-16-golidays_cpanel {
+	background-image:url('../images/icon-16-golidays_cpanel.png');
+}
+
+/**
+* Icons colors
+**/
+.icon-edit:before {
+	color:#2f96b4;
+}
+.icon-featured:before, .icon-star:before, .icon-star-empty:before, .icon-default:before {
+	color:#f89406;
+}
+.icon-pending:before {
+	color:#f89406;
+}
+.icon-publish:before, .icon-save:before, .icon-ok:before {
+	color:#51a351;
+}
+.icon-unpublish:before, .btn-toolbar .icon-cancel:before {
+	color:#bd362f;
+}
+.icon-not-ok:before, .icon-eye-close:before {
+	color:#bd362f;
+}
+.icon-save-new:before {
+	color:#51a351;
+}
+.icon-ban-circle:before, .icon-minus-sign:before {
+	color:#bd362f;
+}
+.icon-save-copy:before, .btn-toolbar .icon-copy:before {
+	color:#51a351;
+}
+
+/**
+* System
+**/
+span.spinner {
+	background-image:url('../images/icon-16-spinner.gif');
+}
+[class^="icon-32"], [class*=" icon-32"] {
+	background-position:0px 0px; !important;
+}
+
+/**
+* Fixes
+**/
+.jgrid span {
+	padding:0px;
+}
+

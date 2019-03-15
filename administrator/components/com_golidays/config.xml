@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<config>
+
+	<fieldset name="configuration"
+			label="GOLIDAYS_CONFIG_COMPONENT_CONFIGURATION"
+			description="GOLIDAYS_CONFIG_COMPONENT_CONFIGURATION_1"
+			addfieldpath="/administrator/components/com_golidays/models/fields"/>
+
+	<fieldset name="permissions"
+			label="GOLIDAYS_CONFIG_PERMISSIONS"
+			description="GOLIDAYS_CONFIG_DEFAULT_PERMISSIONS_USED_FOR_ALL_CONTENT_IN_THIS_COMPONENT"
+			addfieldpath="/administrator/components/com_golidays/models/fields">
+
+		<field name="rules"
+				label="GOLIDAYS_FIELD_PERMISSIONS"
+				filter="rules"
+				type="rules"
+				validate="rules"
+				section="component"
+				component="com_golidays"/>
+	</fieldset>
+</config>

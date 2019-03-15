@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extension type="component" version="1.6" method="upgrade">
+	<name><![CDATA[golidays]]></name>
+	<author><![CDATA[]]></author>
+	<creationDate><![CDATA[07 Apr 2018]]></creationDate>
+	<copyright><![CDATA[]]></copyright>
+	<authorEmail><![CDATA[]]></authorEmail>
+	<authorUrl><![CDATA[]]></authorUrl>
+	<version><![CDATA[]]></version>
+	<license><![CDATA[]]></license>
+	<description><![CDATA[]]></description>
+
+	<files folder="site">
+		<folder>controllers</folder>
+		<folder>css</folder>
+		<folder>files</folder>
+		<folder>images</folder>
+		<folder>layouts</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+		<filename>controller.php</filename>
+		<filename>golidays.php</filename>
+		<filename>index.html</filename>
+		<filename>router.php</filename>
+	</files>
+
+	<languages folder="site">
+		<language tag="en-GB">language/en-GB.com_golidays.ini</language>
+		<language tag="fr-FR">language/fr-FR.com_golidays.ini</language>
+	</languages>
+
+	<administration>
+
+		<files folder="admin">
+			<folder>classes</folder>
+			<folder>controllers</folder>
+			<folder>css</folder>
+			<folder>helpers</folder>
+			<folder>images</folder>
+			<folder>js</folder>
+			<folder>layouts</folder>
+			<folder>models</folder>
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>golidays.php</filename>
+			<filename>index.html</filename>
+		</files>
+
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB.com_golidays.ini</language>
+			<language tag="en-GB">language/en-GB.com_golidays.sys.ini</language>
+			<language tag="fr-FR">language/fr-FR.com_golidays.ini</language>
+			<language tag="fr-FR">language/fr-FR.com_golidays.sys.ini</language>
+		</languages>
+		<menu img="components/com_golidays/images/icon-16-golidays.png">GOLIDAYS_MENU_GOLIDAYS</menu>
+
+		<submenu>
+			<menu img="components/com_golidays/images/icon-16-golidays_users.png" link="option=com_golidays&amp;view=continents">GOLIDAYS_MENU_USERS</menu>
+
+			<menu img="components/com_golidays/images/icon-16-golidays_reservations.png" link="option=com_golidays&amp;view=reservations">GOLIDAYS_MENU_RESERVATIONS</menu>
+			<menu img="components/com_golidays/images/icon-16-golidays_coupons.png" link="option=com_golidays&amp;view=reservations">GOLIDAYS_MENU_COUPONS</menu>
+		</submenu>
+	</administration>
+	<scriptfile>script.php</scriptfile>
+
+	<install>
+
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+
+	<update>
+
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+	</update>
+
+	<uninstall>
+
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+</extension>

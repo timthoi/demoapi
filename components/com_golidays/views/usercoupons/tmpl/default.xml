@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<metadata>
+	<layout title="GOLIDAYS_LAYOUT_USERCOUPONS">
+	<message>
+		<![CDATA[GOLIDAYS_LAYOUT_SHOW_USERCOUPONS_LAYOUT]]>
+	</message></layout>
+
+	<fields name="request">
+
+		<fieldset name="request" addfieldpath="/administrator/components/com_golidays/models/fields">
+
+			<field name="cid"
+					type="modal_reservation"
+					label="GOLIDAYS_JSEARCH_SELECT_RESERVATION"
+					required="false"
+					default=""
+					description="GOLIDAYS_JSEARCH_SELECT_RESERVATION"/>
+		</fieldset>
+	</fields>
+</metadata>
